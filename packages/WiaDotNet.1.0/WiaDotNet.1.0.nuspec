@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WiaDotNet</id>
+    <version>1.0</version>
+    <title>WIA.NET</title>
+    <authors>Robert McLaws</authors>
+    <owners>Robert McLaws</owners>
+    <projectUrl>http://wiadotnet.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET wrapper for the Windows Image Acquisition library. Makes it easy to interact with multifunction scanners, and has optional blank-page detection. Currently only supports the TIFF image format.</description>
+    <summary>A .NET wrapper for the Windows Image Acquisition library. Makes it easy to interact with multifunction scanners, and has optional blank-page detection.</summary>
+    <language>en-US</language>
+    <tags>WIA</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework3.5" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework3.5" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework3.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

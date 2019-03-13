@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MySqlBackup</id>
+    <version>1.0.1</version>
+    <title>MySqlBackup</title>
+    <authors>Yasith Jayawardana</authors>
+    <owners>Yasith Jayawardana</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MySQL Backup/Restore tool based on mysqlbackupnet.codeplex.com</description>
+    <summary />
+    <releaseNotes>Add compatibility with .NET 4.0 and above</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>MySQL Backup</tags>
+    <dependencies>
+      <dependency id="MySql.Data" version="6.9.9" />
+    </dependencies>
+  </metadata>
+</package>

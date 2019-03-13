@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ExcelDataReader.DataSet</id>
+    <version>3.5.0</version>
+    <title>ExcelDataReader.DataSet</title>
+    <authors>ExcelDataReader developers</authors>
+    <owners>ExcelDataReader developers</owners>
+    <projectUrl>https://github.com/ExcelDataReader/ExcelDataReader</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/ExcelDataReader.2.1.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ExcelDataReader extension for reading Microsoft Excel files into System.Data.DataSet.</description>
+    <summary />
+    <tags>excel xls xlsx dataset</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework2.0">
+        <dependency id="ExcelDataReader" version="3.5.0" />
+      </group>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="ExcelDataReader" version="3.5.0" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="ExcelDataReader" version="3.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
